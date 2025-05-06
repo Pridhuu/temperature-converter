@@ -1,0 +1,91 @@
+#container_1 {
+    background-color: #FBA002;
+    height: 145px;
+    width: 400px;
+    text-align: center;
+    border-radius: 5px;
+}
+#header {
+    background-color: #313B2F;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 30px;
+}
+#myH1 {
+    font-size: 18px;
+    font-family: poppins;
+    color: #FBA002;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 3px;
+}
+#container_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 14px;
+}
+#myResult {
+    background-color: white;
+    height: 24px;
+    width: 275px;
+    position: relative;
+    bottom: 8px;
+    border-radius: 5px;
+    font-size: 12.5px;
+    font-family: poppins;
+}
+#myRadio {
+    width: 300px;
+}
+#l_r1 {
+    font-family: poppins;
+    font-size: 10.5px;
+    position: relative;
+    bottom: 3px;
+    right: 8px;
+    color: #313B2F;
+}
+#l_r2 {
+    font-family: poppins;
+    font-size: 10.5px;
+    position: relative;
+    bottom: 3px;
+    color: #313B2F;
+}
+#r1 {
+    position: relative;
+    right: 8px;
+}
+#input {
+    position: relative;
+    top: 5px;
+}
+#user_ip {
+    border-radius: 5px;
+    border: solid transparent;
+    font-family: poppins;
+    font-size: 10px;
+    height: 19px;
+    width: 212px;
+}
+#mySubmit {
+    border-radius: 5px;
+    border: solid transparent;
+    background-color: white;
+    font-family: poppins;
+    font-size: 10px;
+    height: 24px;
+    transition: background-color 0.25s;
+    cursor: pointer;
+}
+#mySubmit:hover {
+    background-color: #313B2F;
+    color: white;
+}
+#status {
+    position: relative;
+    top: 2px;
+}
